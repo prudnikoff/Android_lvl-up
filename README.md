@@ -1,6 +1,6 @@
 # Android level-up
 
-Business incubator BSUIR, 601-4, on Mondays at 15:20 p.m.
+Business incubator BSUIR, 601-4, on Mondays at 3:20 p.m.
 
 Join us in Telegram https://t.me/joinchat/EH0bgxBn0YGLxw0h6b1d9A
 
