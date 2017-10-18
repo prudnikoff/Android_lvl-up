@@ -20,7 +20,7 @@ Your task is to develop a simple dictionary from English to Russian. Briefly, yo
 You're welcome to add any additional functuanality, GUI and so on. Good luck =) 
 
 ## Homework №2
-Are you ready to develop Android apps? It doesn't matter, cuz the first homework was just a ROFL =), but the second task's likely to be more complecated for you. Thus, you should develop Finger Fighting App. If your app is so amazing, we'll upload it to the Google Play. The main sense of the idea I'll tell you in a week. Have a nice day! =)
+Are you ready to develop Android apps? It doesn't matter, cuz the first homework was just a ROFL =), but the second task's likely to be more complicated for you. Thus, you should develop Finger Fighting App. If your app is so amazing, we'll upload it to the Google Play. The main sense of the idea I'll tell you in a week. Have a nice day! =)
 
 
 
