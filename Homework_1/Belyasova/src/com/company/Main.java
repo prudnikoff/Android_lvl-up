@@ -1,7 +1,5 @@
 package com.company;
 
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -47,8 +45,9 @@ public class Main {
             //starting point for a user
             do {
                 sentence = console.nextLine();
+                if (sentence.equals("0")) break;
 
-                if ((newSentence = Translate(sentence)) != null)
+                if ((newSentence = Translate(sentence)[0]) != null)
                 {
                     System.out.println(newSentence);
                     continue;
@@ -56,10 +55,23 @@ public class Main {
                 newSentence = "";
                 String[] words = sentence.split(" ");
                 String attach;
+                String[] result;
                 for (String word: words)
                 {
-                    attach = Translate(word);
-                    if (attach == null) attach = word;
+                    result = Translate(word);
+                    attach = result[0];
+                    if (attach == null)
+                    {
+                        char[] slice = new char[word.length() - 1];
+                        word.getChars(0, word.length() - 1, slice, 0);
+                        attach = Translate(String.copyValueOf(slice))[0];
+                        if (attach == null)
+                        {
+                            System.out.println("Maybe you meant " + result[1]);
+                            attach = word;
+                        }
+                        attach = attach.split("\\s+")[0];
+                    }
                     else attach = attach.split("\\s+")[0];
                     newSentence += attach + " ";
                 }
@@ -80,7 +92,7 @@ public class Main {
     }
 
     //binary search
-    public static String Translate(String word)
+    public static String[] Translate(String word)
     {
         String nextLine;
         int start = 0;
@@ -99,8 +111,8 @@ public class Main {
             }
         } while (start != end);
         nextLine = eExpressions[end];
-        if (nextLine.equalsIgnoreCase(word)) return dictionary[2 * end + 1];
-        return null;
+        if (nextLine.equalsIgnoreCase(word)) return new String[] { dictionary[2 * end + 1] };
+        return new String[] { null, eExpressions[end] };
     }
 
 }
