@@ -9,29 +9,33 @@ public class Translate {
         do
         {
             lineEntered = scan.nextLine();
-            System.out.println(translate(lineEntered));
+            String words[] = lineEntered.split(" ");
+            for(String i: words) {
+                String translatedWord = translate(i);
+                System.out.print(translatedWord + " ");
+            }
+            System.out.println();
         }while(!lineEntered.equals("0"));
     }
-    public static String translate(String word)
-    {
+    public static String translate(String word) {
+        if (word.equals("0"))
+            return "";
         try {
             BufferedReader readFile = new BufferedReader(new FileReader("res//ENRUS.txt"));
             String searchWord;
-            while((searchWord=readFile.readLine())!=null)
-            {
-                if(searchWord.equals(word))
-                {
+            while ((searchWord = readFile.readLine()) != null) {
+                if (searchWord.equals(word)) {
                     String translatedWord = readFile.readLine();
+                    if(translatedWord.contains("\t")) {                         //return 1 word instead string
+                        int lastIndex = translatedWord.indexOf("\t");           //Example: you -> ты вы
+                        translatedWord = translatedWord.substring(0, lastIndex);//translatedWord = "ты", not "ты вы"
+                    }
                     return translatedWord;
                 }
             }
         } catch (Exception e) {
-            System.out.println("File isn't opened");
+            System.out.println("File isn't found");
         }
-        if(!word.equals("0")) {
-            return "Something went wrong :(";
-        }
-        else
-            return "";
+        return word;
     }
 }
