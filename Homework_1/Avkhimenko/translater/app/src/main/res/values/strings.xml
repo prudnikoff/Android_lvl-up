@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">translater</string>
+    <string name="fail">There is no such word in the dictionary, please try something else.</string>
+</resources>
