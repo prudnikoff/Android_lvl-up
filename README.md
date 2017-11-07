@@ -27,6 +27,7 @@ The third Android project you should develop is connected with capturing and pro
 - Capability to adjust brightness of any photo
 - Red, green and blue filters
 - Cropping photos with animation of square area (for real nerds)
+
 Good luck =)
 
 
