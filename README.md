@@ -22,5 +22,12 @@ You're welcome to add any additional functuanality, GUI and so on. Good luck =)
 ## Homework №2
 Are you ready to develop Android apps? It doesn't matter, cuz the first homework was just a ROFL =), but the second task's likely to be more complicated for you. Thus, you should develop Finger Fighting App. If your app is so amazing, we'll upload it to the Google Play. The main sense of the idea I'll tell you in a week. Have a nice day! =)
 
+## Homework №3
+The third Android project you should develop is connected with capturing and processing images. Don't be afraid of working with camera: it's really easy in Android (it concerns implicit intents, you'll learn it soon in our courses). So, your task is to develop app, that'll be able to take a photo (grab it from user's gallery - optionally) and return its negative version. If it doesn't impress you, add some additional functionality, that includes:
+### Capability to adjust brightness of any photo
+### Red, green and blue filters
+### Cropping photos with animation of square area (for real nerds)
+Good luck =)
+
 
 
