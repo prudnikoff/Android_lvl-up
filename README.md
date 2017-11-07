@@ -24,9 +24,9 @@ Are you ready to develop Android apps? It doesn't matter, cuz the first homework
 
 ## Homework №3
 The third Android project you should develop is connected with capturing and processing images. Don't be afraid of working with camera: it's really easy in Android (it concerns implicit intents, you'll learn it soon in our courses). So, your task is to develop app, that'll be able to take a photo (grab it from user's gallery - optionally) and return its negative version. If it doesn't impress you, add some additional functionality, that includes:
-### Capability to adjust brightness of any photo
-### Red, green and blue filters
-### Cropping photos with animation of square area (for real nerds)
+- Capability to adjust brightness of any photo
+- Red, green and blue filters
+- Cropping photos with animation of square area (for real nerds)
 Good luck =)
 
 
