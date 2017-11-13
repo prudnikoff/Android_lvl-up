@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B22222</color>
+    <color name="colorPrimaryDark">#8B0000</color>
+    <color name="colorAccent">#FFA500</color>
+    <color name="border">#4682B4</color>
+    <color name="white">#FFFF</color>
+    <color name="bothFields">#FF7F50</color>
+    <color name="oneField">#87CEFA</color>
+    <color name="backGround">#FF8C00</color>
+    <color name="paint">#A9A9A9</color>
+    <color name="buttonbackground">#D2691E</color>
+    <color name="defaultButtonBackground">#FFA07A</color>
+    <color name="bckgrdYellow">#FFFF00</color>
+</resources>
