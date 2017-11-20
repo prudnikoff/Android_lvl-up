@@ -28,6 +28,13 @@ The third Android project you should develop is connected with capturing and pro
 - Red, green and blue filters
 - Cropping photos with animation of square area (for real nerds)
 
+## Final projects
+It's so pity, but our Android lvl-up courses is going to end. I'm sure, you have one or more projects you want to share in Google Play. If not, I'll give you the last chanсe to start your Android profile. Thus, I suggest to develop:
+- TODO list for programmers, with the capability of connection to GitHub and retrieving TODO tasks from code
+- Android File Manager, with awesome design, of course
+- The third homework with all additional functionality
+Hope, you'll cope with it.
+
 Good luck =)
 
 
