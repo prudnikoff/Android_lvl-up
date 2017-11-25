@@ -33,6 +33,7 @@ It's so pity, but our Android lvl-up courses is going to end. I'm sure, you have
 - TODO list for programmers, with the capability of connection to GitHub and retrieving TODO tasks from code
 - Android File Manager, with awesome design, of course
 - The third homework with all additional functionality
+
 Hope, you'll cope with it.
 
 Good luck =)
